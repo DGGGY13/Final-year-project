@@ -1,0 +1,30 @@
+[0.214s] Invoking command in '/home/bo/ws_xianyu/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_xianyu/build/realtime_servo -- -j2 -l2
+[0.333s] [ 50%] Built target servo_keyboard_input
+[0.368s] [100%] Built target servo_cpp_interface_demo
+[0.420s] Invoked command in '/home/bo/ws_xianyu/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_xianyu/build/realtime_servo -- -j2 -l2
+[0.501s] Invoking command in '/home/bo/ws_xianyu/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_xianyu/build/realtime_servo
+[0.515s] -- Install configuration: "Release"
+[0.515s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/ament_index/resource_index/package_run_dependencies/realtime_servo
+[0.516s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/ament_index/resource_index/parent_prefix_path/realtime_servo
+[0.516s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.sh
+[0.517s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.dsv
+[0.517s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/path.sh
+[0.518s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/path.dsv
+[0.518s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.bash
+[0.519s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.sh
+[0.519s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.zsh
+[0.519s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.dsv
+[0.520s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/package.dsv
+[0.521s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/ament_index/resource_index/packages/realtime_servo
+[0.521s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.522s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.523s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig.cmake
+[0.523s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig-version.cmake
+[0.523s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/package.xml
+[0.524s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/lib/realtime_servo/servo_keyboard_input
+[0.525s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo
+[0.525s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/launch
+[0.526s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/launch/servo_cpp_interface_demo.launch.py
+[0.526s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/config
+[0.527s] -- Up-to-date: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/config/demo_rviz_config.rviz
+[0.529s] Invoked command in '/home/bo/ws_xianyu/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_xianyu/build/realtime_servo

@@ -1,0 +1,191 @@
+[0.699s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--mixin', 'release', '--parallel-workers', '4']
+[0.699s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=['release'], verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe30fe83310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe30fe82c80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe30fe82c80>>, mixin_verb=('build',))
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.792s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bo/ws_joystickarm'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_pub) by extension 'ros'
+[0.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_pub' with type 'ros.ament_python' and name 'joystick_pub'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extension 'ignore_ament_install'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extensions ['colcon_pkg']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/realtime_servo) by extension 'ros'
+[0.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realtime_servo' with type 'ros.ament_cmake' and name 'realtime_servo'
+[0.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.884s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 56 installed packages in /home/bo/ws_moveit2/install
+[0.887s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'cmake_target' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'cmake_clean_first' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'cmake_force_configure' from command line to 'False'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'ament_cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.145s] Level 5:colcon.colcon_core.verb:set package 'joystick_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.145s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bo/ws_joystickarm/build/joystick_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bo/ws_joystickarm/install/joystick_pub', 'merge_install': False, 'path': '/home/bo/ws_joystickarm/src/joystick_pub', 'symlink_install': False, 'test_result_base': None}
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'cmake_target' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'cmake_clean_first' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'cmake_force_configure' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'ament_cmake_args' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'realtime_servo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.147s] DEBUG:colcon.colcon_core.verb:Building package 'realtime_servo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bo/ws_joystickarm/build/realtime_servo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bo/ws_joystickarm/install/realtime_servo', 'merge_install': False, 'path': '/home/bo/ws_joystickarm/src/realtime_servo', 'symlink_install': False, 'test_result_base': None}
+[1.148s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bo/ws_joystickarm/src/joystick_pub' with build type 'ament_python'
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_pub', 'ament_prefix_path')
+[1.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/hook/ament_prefix_path.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/hook/ament_prefix_path.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/hook/ament_prefix_path.sh'
+[1.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.204s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bo/ws_joystickarm/src/realtime_servo' with build type 'ament_cmake'
+[1.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bo/ws_joystickarm/src/realtime_servo'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.704s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bo/ws_joystickarm/src/joystick_pub'
+[1.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_joystickarm/build/realtime_servo -- -j2 -l2
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_joystickarm/build/realtime_servo -- -j2 -l2
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_joystickarm/build/realtime_servo
+[2.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realtime_servo)
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_joystickarm/build/realtime_servo
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo' for CMake module files
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo' for CMake config files
+[2.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('realtime_servo', 'cmake_prefix_path')
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/hook/cmake_prefix_path.ps1'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/hook/cmake_prefix_path.dsv'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/hook/cmake_prefix_path.sh'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/lib'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/bin'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/lib/pkgconfig/realtime_servo.pc'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/lib/python3.10/site-packages'
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/bin'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.sh'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.bash'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.zsh'
+[2.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bo/ws_joystickarm/install/realtime_servo/share/colcon-core/packages/realtime_servo)
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bo/ws_joystickarm/src/joystick_pub': PYTHONPATH=/home/bo/ws_joystickarm/build/joystick_pub/prefix_override:/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/bo/ws_joystickarm/build/joystick_pub/build install --record /home/bo/ws_joystickarm/build/joystick_pub/install.log --single-version-externally-managed
+[2.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realtime_servo)
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo' for CMake module files
+[2.535s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo' for CMake config files
+[2.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('realtime_servo', 'cmake_prefix_path')
+[2.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/hook/cmake_prefix_path.ps1'
+[2.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/hook/cmake_prefix_path.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/hook/cmake_prefix_path.sh'
+[2.539s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/lib'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/bin'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/lib/pkgconfig/realtime_servo.pc'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/lib/python3.10/site-packages'
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/realtime_servo/bin'
+[2.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.ps1'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.dsv'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.sh'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.bash'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.zsh'
+[2.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bo/ws_joystickarm/install/realtime_servo/share/colcon-core/packages/realtime_servo)
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub' for CMake module files
+[3.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bo/ws_joystickarm/src/joystick_pub' returned '0': PYTHONPATH=/home/bo/ws_joystickarm/build/joystick_pub/prefix_override:/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/bo/ws_joystickarm/build/joystick_pub/build install --record /home/bo/ws_joystickarm/build/joystick_pub/install.log --single-version-externally-managed
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub' for CMake config files
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub/lib'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub/lib/pkgconfig/joystick_pub.pc'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages'
+[3.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_pub', 'pythonpath')
+[3.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/hook/pythonpath.ps1'
+[3.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/hook/pythonpath.dsv'
+[3.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/hook/pythonpath.sh'
+[3.040s] Level 1:colcon.colcon_core.environment:checking '/home/bo/ws_joystickarm/install/joystick_pub/bin'
+[3.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_pub)
+[3.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/package.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/package.dsv'
+[3.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/package.sh'
+[3.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/package.bash'
+[3.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/bo/ws_joystickarm/install/joystick_pub/share/joystick_pub/package.zsh'
+[3.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bo/ws_joystickarm/install/joystick_pub/share/colcon-core/packages/joystick_pub)
+[3.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.045s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.061s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.166s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bo/ws_joystickarm/install/local_setup.ps1'
+[3.169s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bo/ws_joystickarm/install/_local_setup_util_ps1.py'
+[3.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bo/ws_joystickarm/install/setup.ps1'
+[3.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bo/ws_joystickarm/install/local_setup.sh'
+[3.180s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bo/ws_joystickarm/install/_local_setup_util_sh.py'
+[3.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bo/ws_joystickarm/install/setup.sh'
+[3.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bo/ws_joystickarm/install/local_setup.bash'
+[3.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bo/ws_joystickarm/install/setup.bash'
+[3.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bo/ws_joystickarm/install/local_setup.zsh'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bo/ws_joystickarm/install/setup.zsh'

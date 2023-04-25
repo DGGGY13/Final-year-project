@@ -1,0 +1,5 @@
+  File "/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub/joystick_tcp.py", line 4
+    import
+          ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,89 @@
+[0.424s] Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_joystickarm/install/joystick_pub:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/bo/ws_joystickarm/src/realtime_servo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bo/ws_joystickarm/install/realtime_servo
+[0.708s] -- The C compiler identification is GNU 11.3.0
+[0.915s] -- The CXX compiler identification is GNU 11.3.0
+[0.941s] -- Detecting C compiler ABI info
+[1.106s] -- Detecting C compiler ABI info - done
+[1.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.118s] -- Detecting C compile features
+[1.120s] -- Detecting C compile features - done
+[1.126s] -- Detecting CXX compiler ABI info
+[1.289s] -- Detecting CXX compiler ABI info - done
+[1.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.300s] -- Detecting CXX compile features
+[1.301s] -- Detecting CXX compile features - done
+[1.316s] -- Found moveit_common: 2.5.4 (/home/bo/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[1.340s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.654s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.055s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[2.067s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.067s] -- BACKWARD_HAS_UNWIND=1
+[2.068s] -- BACKWARD_HAS_BACKTRACE=0
+[2.068s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.068s] -- BACKWARD_HAS_DW=1
+[2.068s] -- BACKWARD_HAS_BFD=0
+[2.068s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.602s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[2.614s] -- Found control_msgs: 4.1.1 (/opt/ros/humble/share/control_msgs/cmake)
+[2.779s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.806s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.843s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.049s] -- Found moveit_core: 2.5.4 (/home/bo/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[4.125s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.187s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.511s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.528s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[4.672s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.723s] -- Found Threads: TRUE  
+[5.203s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.705s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.706s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.658s] -- Found moveit_task_constructor_core: 0.1.0 (/home/bo/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[7.755s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[8.637s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[8.924s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[9.390s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[10.821s] -- Found moveit_ros_perception: 2.5.4 (/home/bo/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake)
+[10.827s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[11.352s] -- Found moveit_servo: 2.5.4 (/home/bo/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)
+[14.105s] -- Configuring done
+[14.477s] -- Generating done
+[14.480s] -- Build files have been written to: /home/bo/ws_joystickarm/build/realtime_servo
+[14.497s] Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_joystickarm/install/joystick_pub:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/bo/ws_joystickarm/src/realtime_servo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bo/ws_joystickarm/install/realtime_servo
+[14.500s] Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_joystickarm/install/joystick_pub:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_joystickarm/build/realtime_servo -- -j2 -l2
+[14.611s] [ 25%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[14.629s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[28.795s] [ 75%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[29.809s] [ 75%] Built target servo_keyboard_input
+[44.817s] [100%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[45.890s] [100%] Built target servo_cpp_interface_demo
+[46.046s] Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_joystickarm/install/joystick_pub:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_joystickarm/build/realtime_servo -- -j2 -l2
+[46.232s] Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_joystickarm/install/joystick_pub:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_joystickarm/build/realtime_servo
+[46.256s] -- Install configuration: "Release"
+[46.259s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/package_run_dependencies/realtime_servo
+[46.260s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/parent_prefix_path/realtime_servo
+[46.265s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.sh
+[46.266s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.dsv
+[46.266s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/path.sh
+[46.266s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/path.dsv
+[46.267s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.bash
+[46.268s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.sh
+[46.268s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.zsh
+[46.268s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.dsv
+[46.269s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.dsv
+[46.269s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/packages/realtime_servo
+[46.270s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.270s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.271s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig.cmake
+[46.272s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig-version.cmake
+[46.272s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.xml
+[46.273s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_keyboard_input
+[46.275s] -- Set runtime path of "/home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_keyboard_input" to ""
+[46.275s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo
+[46.276s] -- Set runtime path of "/home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo" to ""
+[46.276s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/launch
+[46.277s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/launch/servo_cpp_interface_demo.launch.py
+[46.278s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/config
+[46.279s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/config/demo_rviz_config.rviz
+[46.292s] Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_joystickarm/install/joystick_pub:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_joystickarm/build/realtime_servo

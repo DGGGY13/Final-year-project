@@ -1,0 +1,2 @@
+Invoking command in '/home/bo/ws_xianyu/build/moveit2_tutorials': /usr/bin/cmake /home/bo/ws_xianyu/src/realtime_servo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bo/ws_xianyu/install/moveit2_tutorials
+Invoked command in '/home/bo/ws_xianyu/build/moveit2_tutorials' returned '1': /usr/bin/cmake /home/bo/ws_xianyu/src/realtime_servo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bo/ws_xianyu/install/moveit2_tutorials

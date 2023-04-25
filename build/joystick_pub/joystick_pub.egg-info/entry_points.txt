@@ -1,0 +1,4 @@
+[console_scripts]
+joystick_driver = joystick_pub.joystick_driver:main
+joystick_pub = joystick_pub.joystick_pub:main
+

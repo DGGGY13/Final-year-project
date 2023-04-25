@@ -1,0 +1,71 @@
+[0.016s] Invoking command in '/home/bo/ws_xianyu/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/bo/ws_xianyu/src/hello_moveit -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/bo/ws_xianyu/install/hello_moveit
+[0.079s] -- The C compiler identification is GNU 11.3.0
+[0.127s] -- The CXX compiler identification is GNU 11.3.0
+[0.138s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.574s] -- Found moveit_ros_planning_interface: 2.5.4 (/home/bo/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.771s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.848s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.859s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.636s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.657s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.783s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.790s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.836s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.857s] -- Found Threads: TRUE  
+[2.054s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.190s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.190s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.656s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.020s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.266s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.572s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.661s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.661s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bo/ws_xianyu/src/hello_moveit/include>
+[3.661s] -- Configured cppcheck exclude dirs and/or files: 
+[3.662s] -- Added test 'lint_cmake' to check CMake code style
+[3.664s] -- Added test 'uncrustify' to check C / C++ code style
+[3.664s] -- Configured uncrustify additional arguments: 
+[3.665s] -- Added test 'xmllint' to check XML markup files
+[3.667s] -- Configuring done
+[3.691s] -- Generating done
+[3.693s] -- Build files have been written to: /home/bo/ws_xianyu/build/hello_moveit
+[3.703s] Invoked command in '/home/bo/ws_xianyu/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/bo/ws_xianyu/src/hello_moveit -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/bo/ws_xianyu/install/hello_moveit
+[3.703s] Invoking command in '/home/bo/ws_xianyu/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_xianyu/build/hello_moveit -- -j2 -l2
+[3.766s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[9.761s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[10.071s] [100%] Built target hello_moveit
+[10.083s] Invoked command in '/home/bo/ws_xianyu/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_xianyu/build/hello_moveit -- -j2 -l2
+[10.140s] Invoking command in '/home/bo/ws_xianyu/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_xianyu/build/hello_moveit
+[10.148s] -- Install configuration: "Debug"
+[10.148s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/lib/hello_moveit/hello_moveit
+[10.160s] -- Set runtime path of "/home/bo/ws_xianyu/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/environment/path.sh
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/local_setup.bash
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/local_setup.sh
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/package.dsv
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[10.160s] -- Installing: /home/bo/ws_xianyu/install/hello_moveit/share/hello_moveit/package.xml
+[10.162s] Invoked command in '/home/bo/ws_xianyu/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_xianyu/build/hello_moveit

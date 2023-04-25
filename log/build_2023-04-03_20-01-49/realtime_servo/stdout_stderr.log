@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.5.4 (/home/bo/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+-- Found control_msgs: 4.1.1 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found moveit_core: 2.5.4 (/home/bo/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found Threads: TRUE  
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_task_constructor_core: 0.1.0 (/home/bo/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_ros_perception: 2.5.4 (/home/bo/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Found moveit_servo: 2.5.4 (/home/bo/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bo/ws_joystickarm/build/realtime_servo
+[ 25%] [32mBuilding CXX object CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 75%] Built target servo_keyboard_input
+[100%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[100%] Built target servo_cpp_interface_demo
+-- Install configuration: "Release"
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/package_run_dependencies/realtime_servo
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/parent_prefix_path/realtime_servo
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.sh
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/path.sh
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/path.dsv
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.bash
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.sh
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.zsh
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.dsv
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.dsv
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/packages/realtime_servo
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig.cmake
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig-version.cmake
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.xml
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_keyboard_input
+-- Set runtime path of "/home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_keyboard_input" to ""
+-- Installing: /home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo
+-- Set runtime path of "/home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo" to ""
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/launch
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/launch/servo_cpp_interface_demo.launch.py
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/config
+-- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/config/demo_rviz_config.rviz

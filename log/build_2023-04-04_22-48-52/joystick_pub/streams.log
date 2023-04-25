@@ -1,0 +1,25 @@
+[2.314s] Invoking command in '/home/bo/ws_joystickarm/src/joystick_pub': PYTHONPATH=/home/bo/ws_joystickarm/build/joystick_pub/prefix_override:/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/bo/ws_joystickarm/build/joystick_pub/build install --record /home/bo/ws_joystickarm/build/joystick_pub/install.log --single-version-externally-managed
+[2.895s] running egg_info
+[2.897s] writing ../../build/joystick_pub/joystick_pub.egg-info/PKG-INFO
+[2.906s] writing dependency_links to ../../build/joystick_pub/joystick_pub.egg-info/dependency_links.txt
+[2.906s] writing entry points to ../../build/joystick_pub/joystick_pub.egg-info/entry_points.txt
+[2.907s] writing requirements to ../../build/joystick_pub/joystick_pub.egg-info/requires.txt
+[2.912s] writing top-level names to ../../build/joystick_pub/joystick_pub.egg-info/top_level.txt
+[2.913s] reading manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[2.923s] writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[2.924s] running build
+[2.925s] running build_py
+[2.926s] copying joystick_pub/joystick_pub.py -> /home/bo/ws_joystickarm/build/joystick_pub/build/lib/joystick_pub
+[2.931s] running install
+[2.932s] running install_lib
+[2.933s] copying /home/bo/ws_joystickarm/build/joystick_pub/build/lib/joystick_pub/joystick_pub.py -> /home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub
+[2.934s] byte-compiling /home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub/joystick_pub.py to joystick_pub.cpython-310.pyc
+[2.934s] running install_data
+[2.935s] running install_egg_info
+[2.944s] removing '/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.944s] Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub-0.0.0-py3.10.egg-info
+[2.949s] running install_scripts
+[2.995s] Installing joystick_driver script to /home/bo/ws_joystickarm/install/joystick_pub/lib/joystick_pub
+[2.996s] Installing joystick_pub script to /home/bo/ws_joystickarm/install/joystick_pub/lib/joystick_pub
+[2.998s] writing list of installed files to '/home/bo/ws_joystickarm/build/joystick_pub/install.log'
+[3.049s] Invoked command in '/home/bo/ws_joystickarm/src/joystick_pub' returned '0': PYTHONPATH=/home/bo/ws_joystickarm/build/joystick_pub/prefix_override:/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/bo/ws_joystickarm/build/joystick_pub/build install --record /home/bo/ws_joystickarm/build/joystick_pub/install.log --single-version-externally-managed

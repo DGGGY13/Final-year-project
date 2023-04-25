@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/joystick_pub/joystick_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/joystick_pub/joystick_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/joystick_pub/joystick_pub.egg-info/entry_points.txt
+writing requirements to ../../build/joystick_pub/joystick_pub.egg-info/requires.txt
+writing top-level names to ../../build/joystick_pub/joystick_pub.egg-info/top_level.txt
+reading manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joystick_pub/joystick_driver.py -> /home/bo/ws_joystickarm/build/joystick_pub/build/lib/joystick_pub
+running install
+running install_lib
+copying /home/bo/ws_joystickarm/build/joystick_pub/build/lib/joystick_pub/joystick_driver.py -> /home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub
+byte-compiling /home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub/joystick_driver.py to joystick_driver.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/bo/ws_joystickarm/install/joystick_pub/lib/python3.10/site-packages/joystick_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joystick_driver script to /home/bo/ws_joystickarm/install/joystick_pub/lib/joystick_pub
+Installing joystick_pub script to /home/bo/ws_joystickarm/install/joystick_pub/lib/joystick_pub
+writing list of installed files to '/home/bo/ws_joystickarm/build/joystick_pub/install.log'

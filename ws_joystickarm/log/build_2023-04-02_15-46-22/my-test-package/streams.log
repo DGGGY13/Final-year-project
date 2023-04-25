@@ -1,0 +1,17 @@
+[0.559s] Invoking command in '/home/bo/ws_xianyu/src/pythonProject_FYP/venv/Lib/site-packages/pkg_resources/tests/data/my-test-package-source': PYTHONPATH=/home/bo/ws_xianyu/build/my-test-package/prefix_override:/home/bo/ws_xianyu/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../../../../build/my-test-package build --build-base /home/bo/ws_xianyu/build/my-test-package/build install --record /home/bo/ws_xianyu/build/my-test-package/install.log --single-version-externally-managed
+[0.734s] running egg_info
+[0.734s] writing ../../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+[0.735s] writing dependency_links to ../../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+[0.735s] writing top-level names to ../../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+[0.736s] reading manifest file '../../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[0.736s] writing manifest file '../../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[0.736s] running build
+[0.736s] running install
+[0.737s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.737s]   warnings.warn(
+[0.737s] running install_egg_info
+[0.738s] removing '/home/bo/ws_xianyu/install/my-test-package/lib/python3.10/site-packages/my_test_package-1.0-py3.10.egg-info' (and everything under it)
+[0.738s] Copying ../../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/bo/ws_xianyu/install/my-test-package/lib/python3.10/site-packages/my_test_package-1.0-py3.10.egg-info
+[0.738s] running install_scripts
+[0.752s] writing list of installed files to '/home/bo/ws_xianyu/build/my-test-package/install.log'
+[0.767s] Invoked command in '/home/bo/ws_xianyu/src/pythonProject_FYP/venv/Lib/site-packages/pkg_resources/tests/data/my-test-package-source' returned '0': PYTHONPATH=/home/bo/ws_xianyu/build/my-test-package/prefix_override:/home/bo/ws_xianyu/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../../../../build/my-test-package build --build-base /home/bo/ws_xianyu/build/my-test-package/build install --record /home/bo/ws_xianyu/build/my-test-package/install.log --single-version-externally-managed

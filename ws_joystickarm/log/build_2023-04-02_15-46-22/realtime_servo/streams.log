@@ -1,0 +1,73 @@
+[0.021s] Invoking command in '/home/bo/ws_xianyu/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/bo/ws_xianyu/src/realtime_servo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bo/ws_xianyu/install/realtime_servo
+[0.043s] -- Found moveit_common: 2.5.4 (/home/bo/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.044s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.223s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.224s] -- BACKWARD_HAS_UNWIND=1
+[0.224s] -- BACKWARD_HAS_BACKTRACE=0
+[0.224s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.225s] -- BACKWARD_HAS_DW=1
+[0.225s] -- BACKWARD_HAS_BFD=0
+[0.226s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.233s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[0.235s] -- Found control_msgs: 4.1.1 (/opt/ros/humble/share/control_msgs/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.261s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found moveit_core: 2.5.4 (/home/bo/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.664s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.671s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.711s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.733s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.853s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.997s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.654s] -- Found moveit_task_constructor_core: 0.1.0 (/home/bo/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[1.697s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.045s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.166s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.326s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.876s] -- Found moveit_ros_perception: 2.5.4 (/home/bo/ws_moveit2/install/moveit_ros_perception/share/moveit_ros_perception/cmake)
+[2.879s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[3.076s] -- Found moveit_servo: 2.5.4 (/home/bo/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)
+[4.105s] -- Configuring done
+[4.221s] -- Generating done
+[4.221s] -- Build files have been written to: /home/bo/ws_xianyu/build/realtime_servo
+[4.230s] Invoked command in '/home/bo/ws_xianyu/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/bo/ws_xianyu/src/realtime_servo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bo/ws_xianyu/install/realtime_servo
+[4.231s] Invoking command in '/home/bo/ws_xianyu/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_xianyu/build/realtime_servo -- -j2 -l2
+[4.308s] [ 25%] [32mBuilding CXX object CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[4.311s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[10.274s] [ 75%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[10.582s] [ 75%] Built target servo_keyboard_input
+[17.272s] [100%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[17.702s] [100%] Built target servo_cpp_interface_demo
+[17.748s] Invoked command in '/home/bo/ws_xianyu/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_xianyu/build/realtime_servo -- -j2 -l2
+[17.823s] Invoking command in '/home/bo/ws_xianyu/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_xianyu/build/realtime_servo
+[17.832s] -- Install configuration: "Release"
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/ament_index/resource_index/package_run_dependencies/realtime_servo
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/ament_index/resource_index/parent_prefix_path/realtime_servo
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.sh
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.dsv
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/path.sh
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/environment/path.dsv
+[17.835s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.bash
+[17.836s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.sh
+[17.836s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.zsh
+[17.836s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/local_setup.dsv
+[17.837s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/package.dsv
+[17.837s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/ament_index/resource_index/packages/realtime_servo
+[17.837s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.838s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.838s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig.cmake
+[17.838s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig-version.cmake
+[17.839s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/package.xml
+[17.839s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/lib/realtime_servo/servo_keyboard_input
+[17.839s] -- Set runtime path of "/home/bo/ws_xianyu/install/realtime_servo/lib/realtime_servo/servo_keyboard_input" to ""
+[17.840s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo
+[17.840s] -- Set runtime path of "/home/bo/ws_xianyu/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo" to ""
+[17.840s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/launch
+[17.841s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/launch/servo_cpp_interface_demo.launch.py
+[17.841s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/config
+[17.841s] -- Installing: /home/bo/ws_xianyu/install/realtime_servo/share/realtime_servo/config/demo_rviz_config.rviz
+[17.850s] Invoked command in '/home/bo/ws_xianyu/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_xianyu/build/realtime_servo

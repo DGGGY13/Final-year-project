@@ -1,0 +1,32 @@
+[0.204s] Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_joystickarm/build/realtime_servo -- -j2 -l2
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target servo_keyboard_input[0m
+[0.337s] [ 50%] Built target servo_keyboard_input
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target servo_cpp_interface_demo[0m
+[0.403s] [100%] Built target servo_cpp_interface_demo
+[0.427s] Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bo/ws_joystickarm/build/realtime_servo -- -j2 -l2
+[0.567s] Invoking command in '/home/bo/ws_joystickarm/build/realtime_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_joystickarm/build/realtime_servo
+[0.580s] -- Install configuration: "Release"
+[0.580s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/package_run_dependencies/realtime_servo
+[0.581s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/parent_prefix_path/realtime_servo
+[0.582s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.sh
+[0.583s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/ament_prefix_path.dsv
+[0.584s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/path.sh
+[0.584s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/environment/path.dsv
+[0.585s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.bash
+[0.585s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.sh
+[0.585s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.zsh
+[0.586s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/local_setup.dsv
+[0.586s] -- Installing: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.dsv
+[0.588s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/ament_index/resource_index/packages/realtime_servo
+[0.588s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.589s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.589s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig.cmake
+[0.590s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/cmake/realtime_servoConfig-version.cmake
+[0.590s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/package.xml
+[0.591s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_keyboard_input
+[0.593s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/lib/realtime_servo/servo_cpp_interface_demo
+[0.594s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/launch
+[0.594s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/launch/servo_cpp_interface_demo.launch.py
+[0.595s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/config
+[0.595s] -- Up-to-date: /home/bo/ws_joystickarm/install/realtime_servo/share/realtime_servo/config/demo_rviz_config.rviz
+[0.597s] Invoked command in '/home/bo/ws_joystickarm/build/realtime_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bo/ws_moveit2/install/moveit_configs_utils:/home/bo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bo/ws_joystickarm/build/realtime_servo
